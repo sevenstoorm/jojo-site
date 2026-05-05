@@ -1,32 +1,37 @@
-# React + Vite
+# JoJo Characters Archive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um site feito em **React** sobre *JoJo's Bizarre Adventure*, com personagens separados por partes da obra.
 
-Currently, two official plugins are available:
+O projeto usa a **JoJo Wiki API** para buscar informações dos personagens, como nome, descrição e imagem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# SITE
 
-## React Compiler
+Abra [aqui](https://sevenstoorm.github.io/jojo-site/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Preview
 
-## Expanding the ESLint configuration
+O site possui:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Personagens separados por partes
+- Busca por nome
+- Cards com imagem do personagem
+- Link direto para a JoJo Wiki
+- Design responsivo
+- Visual inspirado no estilo de JoJo
 
+## Tecnologias usadas
 
-npm install //install possible dependences
-npm run dev //run the live server
+- React
+- JavaScript
+- Vite
+- CSS
+- JoJo Wiki API
+- GitHub Pages
 
+## API usada
 
-/// Introduction to the website ideas ///
+Este projeto usa a API pública da JoJo Wiki:
 
-Idea of how it will work
-
---HP -- All the main content of jojo introduction
---Parts header (part 1, 2, 3...)
---own theme for each page
---Own page for each stand, char, spec
---Navbar
---Stand Cards
+```txt
+https://jojowiki.com/api.php?action=query&list=search&srsearch=Jotaro&format=json
+```
